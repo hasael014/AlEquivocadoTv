@@ -1,6 +1,8 @@
 :root{
-    --title-size: 90px;
-    --title-margin: 0;
+    --title-size: 5em;
+    --title-margin: -5px 0px 0px 0px;
+    --darker-gradient: linear-gradient(to bottom, rgba(33, 78, 33, 0.63), rgba(151, 150, 150, 0));
+    --backgraudn-grad: linear-gradient(to bottom, rgba(80, 80, 80, 0), rgba(33, 78, 33, 0.63));
 }
 
 @font-face{
@@ -47,26 +49,57 @@
     format("woff");
     font-display:swap
 }
-
 @font-face {
     font-family: "Milit";
     src: url(../fonts/SairaStencilOne-Regular.ttf);
 }
+@font-face {
+    font-family: "BigSh";
+    src: url(../fonts/Big_Shoulders_Stencil_Display/BigShouldersStencilDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "SirinS";
+    src: url(../fonts/Sirin_Stencil/SirinStencil-Regular.ttf);
+}
+@font-face {
+    font-family: "MILITA2";
+    src: url(../fonts/Black_Ops_One/BlackOpsOne-Regular.ttf);
+}
+
+body{
+    margin: 0%;
+    padding: 0 0 100% 0;
+    cursor: url("../cursor/cursor.cur"), auto;
+    background: var(--backgraudn-grad);
+    
+}
 
 .encabezado{
+    
     margin: var(--title-margin);
     text-align: center;
+    background: var(--darker-gradient);
 }
 
 .alequivocadotv{
+    color: rgb(80, 116, 35);
     font-size: var(--title-size);
     display: inline-block;
-    font-family: Milit;
+    font-family: MILITA2;
+    margin: var(--title-margin);
+    font-weight: normal;
+    text-shadow:1px 0 0 #000,0 1px 0 #000,-1px 0 0 #000,0 -1px 0 #000
 }
 
 .title.pru{
     font-family:EnterCommand;
     font-size:26px;
     color:#fff;
-    text-shadow:2px 0 0 #000,0 2px 0 #000,-2px 0 0 #000,0 -2px 0 #000
+    text-shadow:2px 0 0 #000,0 2px 0 #000,-2px 0 0 #000,0 -2px 0 #000;
+    text-align: center;
+}
+
+/*Para pantallas de telefonos celulares*/
+@media only screen and (min-width: 20px) and (max-width: 968px) {
+
 }
