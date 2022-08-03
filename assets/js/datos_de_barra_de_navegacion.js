@@ -2,7 +2,7 @@ const navegador = {
 	pagina1 : {
 		titulo : "al equivocado tv",
 		namelink1 : "cursos",
-		link1 : "cursos.html?pagina=2&name=cursos",
+		link1 : "cursos.html?pagina=2",
 		namelink2 : "codigos",
 		link2 : "#",
 		namelink3 : "descargas",
