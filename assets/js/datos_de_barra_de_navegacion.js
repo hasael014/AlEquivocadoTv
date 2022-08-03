@@ -1,16 +1,15 @@
 const navegador = {
 	pagina1 : {
 		titulo : "al equivocado tv",
-		namelink1 : "cursos",
-		link1 : "cursos.html?pagina=2",
-		namelink2 : "codigos",
-		link2 : "#",
-		namelink3 : "descargas",
-		link3 : "#"
-	},
-	pagina2 : {
-		titulo : "cursos",
+		titulo2 : "cursos",
+		titulo3 : "Codigos",
 		namelink1 : "inicio",
-		link1 : "index.html?pagina=1"
-	}
+		link1 : "index.html",
+		namelink2 : "cursos",
+		link2 : "cursos.html",
+		namelink3 : "codigos",
+		link3 : "codigos.html",
+		namelink4 : "descargas",
+		link4 : "descargas.html"
+	},
 }
